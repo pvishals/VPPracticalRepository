@@ -23,6 +23,7 @@ git commit -m "This message is compulsary"
 git log, press q to exit
 git restore  --staged . to move back the file
 git restore . to completely restore the files
+git rm path/to/file - to delete committed file/folder
 -------- Sync local repo to Github repository---------------------
 git remote add origin https://github.com/[REPO-OWNER]/[REPO-NAME]
 git branch -M main
